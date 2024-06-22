@@ -83,7 +83,7 @@ if st.button("Diagnose"):
      # Display the result with different colors
     if prediction[0] == 1:
         st.markdown(
-            '<p tyle="color:white;background-color:rgba(128, 0, 0, 0.2);border:solid red 1px;padding: 10px;border-radius: 15px">The patient is likely to have heart disease.</p>',
+            '<p style="color:white;background-color:rgba(128, 0, 0, 0.2);border:solid red 1px;padding: 10px;border-radius: 15px">The patient is likely to have heart disease.</p>',
             unsafe_allow_html=True
         )
     else:
