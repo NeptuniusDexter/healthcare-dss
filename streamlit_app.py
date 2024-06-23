@@ -39,6 +39,8 @@ def show_model_training():
 
 # Define layout based on the current page
 if st.session_state.page == 'main':
+    st.write("Please note this project is for educational purposes and should not be used as a substitute for professional medical advice, diagnosis, or treatment.")
+    
     st.write("The following buttons will display the Jupyter Notebooks which were used to clean, visualise and preprocess the heart disease data set and train the machine learning models used in this application")
 
     st.button("Data Cleaning Notebook", on_click=show_data_cleaning)
